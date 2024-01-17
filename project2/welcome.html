@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthan Police</title>
+    <style>
+        body {
+       
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background 1s ease-in-out;
+        }
+
+        .greeting-container {
+            text-align: center;
+        }
+
+        .greeting-text {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .loading-spinner {
+            font-size: 2em;
+            color: #007bff;
+            animation: spin 1s infinite linear;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="greeting-container">
+        <div class="greeting-text">
+
+            <p>Welcome to Rajasthan Police Feedback Portal</p>
+            <p>
+                राजस्थान पुलिस फीडबैक पोर्टल में आपका स्वागत है</p>
+            <p>Please wait while we prepare the site for you.</p>
+        </div>
+        <div class="loading-spinner">
+            <i class="fas fa-spinner"></i>
+        </div>
+    </div>
+
+    <script>
+        // Simulating the loading process and redirecting to the main website
+        setTimeout(() => {
+            window.location.href = "aman.html"; // Replace with your website URL
+        }, 5000); // Adjust the time as needed
+    </script>
+</body>
+
+</html>
