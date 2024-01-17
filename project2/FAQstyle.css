@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to right , #f05208 , #ffffff,rgb(43,255,0));
+  }
+  
+  .card {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

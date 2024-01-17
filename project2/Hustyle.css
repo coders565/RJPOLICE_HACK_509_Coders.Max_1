@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to right , #f05208 , #ffffff,rgb(43,255,0));
+  }
+  
+  .feedback-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
