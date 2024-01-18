@@ -3,7 +3,6 @@
 if (isset($_POST['submit'])) {
     $complaint_no = $_POST["compl_no"];
     $name = $_POST["name"];
-    $email = $_POST["mail"];
     $description = $_POST["feedback"];
     }
 
@@ -21,7 +20,7 @@ if (!$con) {
 
 
 
-$sql = "INSERT INTO feedback4 (id, compl_no, name, email, description) VALUES ('0', '$complaint_no', '$name', '$email', '$description')";
+$sql = "INSERT INTO feedback4 (id, compl_no, name, description) VALUES ('0', '$complaint_no', '$name', '$description')";
               
 $rs = mysqli_query($con, $sql);
 
